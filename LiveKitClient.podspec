@@ -10,11 +10,11 @@ Pod::Spec.new do |spec|
   spec.osx.deployment_target = "10.15"
 
   spec.swift_versions = ["5.7"]
-  spec.source = {:git => "https://github.com/livekit/client-sdk-swift.git", :tag => "2.0.19"}
+  spec.source = {:git => "https://github.com/patryk-sredzinski/client-sdk-swift.git", :tag => "2.0.19-Vama"}
 
   spec.source_files = "Sources/**/*"
 
-  spec.dependency("LiveKitWebRTC", "= 125.6422.11")
+  spec.dependency("LiveKitWebRTC-Vama", "= 125.6422.11-Vama")
   spec.dependency("SwiftProtobuf")
   spec.dependency("Logging")
 
